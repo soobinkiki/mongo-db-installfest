@@ -53,10 +53,11 @@ brew tap mongodb/brew
 brew install mongodb-community@4.4
 ```
 
-You my friend have just installed MongoDB! You can run `brew cleanup` to remove any tempory files used for the installation if you wish
+You, my friend, have just installed MongoDB! You can run `brew cleanup` to remove any tempory files used for the installation if you wish
 
 ___
-Now that mongoDB is installed, use the following commands to start/stop/restart the mongodb servies with the follwoing commands:
+
+Now that mongoDB is installed, you will be able to use the following commands to start/stop/restart the mongodb servies with the follwoing commands:
 
 ```bash
 # start service
