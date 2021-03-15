@@ -91,7 +91,7 @@ If you see an error that looks like this when the shell starts:
 
 ![shell-error](/error.png)
 
-It means mongoDB is compaining that the memory allocation is too low for it run fast. Not a huge deal for developement machines, but still, we can fix that! 
+It means mongoDB is complaining that the memory allocation is too low for it run fast. Not a huge deal for developement machines, but still, we can fix that! 
 
 You will have to create a launch deamon that raises the soft rlimit when your machine boots up. [Learn more about macOS launch deamons](https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/CreatingLaunchdJobs.html)
 
